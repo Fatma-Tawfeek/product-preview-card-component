@@ -1,0 +1,12 @@
+/* Mobile (Portrait) */
+@media (max-width: 30em) {
+    .card {
+        max-width: 23.4375rem;
+        flex-direction: column;
+    }
+
+    .card .card-img,
+    .card .card-content {
+        width: 100%;
+    }
+}
